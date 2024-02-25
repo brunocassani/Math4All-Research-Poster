@@ -1,6 +1,6 @@
 # Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
 
-Gemini is a modern LaTeX [beamerposter] theme.
+Gemini is a modern LaTeX [beamerposter] theme. I modified the code slightly to have a Boston College theme with the flagship colors and logo.
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini.pdf">
