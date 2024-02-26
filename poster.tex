@@ -59,7 +59,7 @@
 % ====================
 
 \footercontent{  \hfill
-  \href{mailto:youremail@tcd.ie}{cassanib@bc.edu}}
+  \href{mailto:cassanib@bc.edu}{cassanib@bc.edu}}
 % (can be left out to remove footer)
 
 % ====================
@@ -90,11 +90,11 @@
 
   \begin{alertblock}{Theorem}
 
-    In any reasonable math system, there will always be at least one true statement that cannot be proven nor disproven.
+    In every reasonable axiomatic proposition of number theory, there will always be propositions that cannot be proven nor disproven.
 
     \begin{figure}
       \centering
-            \includegraphics[width=0.6\textwidth]{figures/Draw_1.png} %FIXME: a little too thick?
+            \includegraphics[width=0.5\textwidth]{figures/Draw_1.png}
     \end{figure}
 
   \end{alertblock}
@@ -102,16 +102,22 @@
 \begin{block}{Background}
 
     \begin{itemize}
-      \item Before Gödel, people expected math to eventually be complete, i.e., to be able to prove everything given the right amount of axioms.
-      \item In the early 20th century, set theory paradoxes like those proposed by Bertrand Russell raised questions about the consistency of math.
+      \item Before Gödel, metamathematicians expected math to eventually be \textbf{complete}, i.e., to be able to prove everything given the right amount of axioms.
+      \item In the early 20th century, set theory paradoxes like those proposed by Bertrand Russell raised questions about the \textbf{consistency} of math.
         
     \end{itemize}
 
-  \end{block}
+\end{block}
+
+\begin{exampleblock}{Proposition}
+
+      Statements \textit{of} number theory could also be \textit{about} number theory.
+
+\end{exampleblock}
 
 \begin{block}{Gödel Numbering}
 
-      In order to prove the theorem, Gödel needed math to be able to talk about itself. To do so, he created his own $Encode(G)$ function to turn statements into unique numbers. To do so, he would first need to convert each mathematical symbol into a number.
+      Gödel needed math to be self-referential. First, he created his own $Encode(G)$ function to turn mathematical statements into unique natural numbers. To do so, he would first need to convert each mathematical symbol into a number.
 
     \begin{table}[h]
     \centering
@@ -127,7 +133,7 @@
     \end{table}
 
     %FIXME: LEAVE A LINE HERE?
-    Through this system, each symbol has its own unique natural number to be used for encoding.
+    Through this numbering system, each symbol has its own unique natural number to be used for encoding.
     
   \end{block}
 
@@ -143,7 +149,7 @@
 
     $$Encode(x_1, x_2, \dots, x_n) = 2^{x_1} \times 3^{x_2} \times \ldots \times p_n^{x_n}$$
 
-    This way, any given mathematical expression can be encoded algebraically. Note that it can also be decoded through prime factorization
+    This way, any given mathematical expression can be encoded algebraically. Besides, the statements can be decoded through prime factorization.
 
     Note: $Encode(A)$ is sometimes written as $\ulcorner A \urcorner$.
 
@@ -164,9 +170,8 @@ Since statement A can be proved through axiom B, and $Encode(A)$ and $Encode(B)$
  \end{block}
 
 
- \begin{block}{Proof by diagonalization}
+ \begin{block}{Self-reference by diagonalization}
 
-    
     Enumerate all formulas in the formal system $F$ with exactly one free variable:
     
     \[
@@ -182,9 +187,12 @@ Since statement A can be proved through axiom B, and $Encode(A)$ and $Encode(B)$
 
 
 Each entry represents a formula \( F_i(n) \), where \( i \) represents the formula number and \( n \) represents the parameter.
+\end{block}
+
+\begin{block}{Gödel Statement}
 
 Construct a new formula $G$, asserting the negation of provability for each formula $F_j(j)$ in the table:
-\[ G \equiv \neg Provability(F_j(j)) \]
+$$G \equiv \neg Provability(F_j(j))$$
 
 Consider the truth value of $G$. If $G$ were false, then by its own definition, each $F_j(j)$ would be provable and thus true. But the definition of $G$ implies the opposite; since math is consistent, $G$ must be true. Since $G$ cannot be consistently proven or disproven within the system, it follows that $G$ is true but unprovable within $F$.
  
@@ -212,4 +220,4 @@ Consider the truth value of $G$. If $G$ were false, then by its own definition, 
 \end{columns}
 \end{frame}
 
-\end{document}
+\end{document} 
