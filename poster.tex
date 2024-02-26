@@ -117,7 +117,7 @@
 
 \begin{block}{Gödel Numbering}
 
-      Gödel needed math to be self-referential. First, he created his own $Encode(G)$ function to turn mathematical statements into unique natural numbers. To do so, he would first need to convert each mathematical symbol into a number.
+      To investigate the proposition, Gödel needed math to be self-referential. He created his own $Encode(G)$ function to turn mathematical statements into unique natural numbers. To do so, he would first need to convert each mathematical symbol into a number. Thus, he created a numbering system where each symbol has its own unique natural number to be used for encoding.
 
     \begin{table}[h]
     \centering
@@ -132,8 +132,7 @@
     \end{tabular}
     \end{table}
 
-    %FIXME: LEAVE A LINE HERE?
-    Through this numbering system, each symbol has its own unique natural number to be used for encoding.
+    In theory, the symbols have no meaning, the axioms and formulas constructed from them are what give them their meaning.
     
   \end{block}
 
@@ -191,10 +190,10 @@ Each entry represents a formula \( F_i(n) \), where \( i \) represents the formu
 
 \begin{block}{Gödel Statement}
 
-Construct a new formula $G$, asserting the negation of provability for each formula $F_j(j)$ in the table:
+Construct a new formula $G$, asserting the negation of provability for each formula $F_j(j)$ in the table. This is what is known as the Gödel statement:
 $$G \equiv \neg Provability(F_j(j))$$
 
-Consider the truth value of $G$. If $G$ were false, then by its own definition, each $F_j(j)$ would be provable and thus true. But the definition of $G$ implies the opposite; since math is consistent, $G$ must be true. Since $G$ cannot be consistently proven or disproven within the system, it follows that $G$ is true but unprovable within $F$.
+ Now, Consider the truth value of $G$. If $G$ were false, then by its own definition, each $F_j(j)$ would be provable and thus true. But the definition of $G$ implies the opposite; since math is consistent, $G$ must be true. Since $G$ cannot be consistently proven or disproven within the system, it follows that $G$ is true but unprovable within $F$.
  
  \end{block}
 
@@ -206,6 +205,35 @@ Consider the truth value of $G$. If $G$ were false, then by its own definition, 
 
 \begin{column}{\colwidth}
 
+\begin{block}{Axiomatization}
+Although the proof works, one might argue that the Gödel statement could be made into an axiom to trivialize the problem.\\
+However, doing so would only create a new system where the current $G$ could be proved; it would change the nature of the new system, leading to further contradictions.
+
+\end{block}
+
+\begin{block}{Implications}
+
+ \begin{itemize}
+      \item Mathematics
+        \begin{itemize}
+            \item No single formal system can capture all mathematical truths, showing the inherent incompleteness of axiomatic systems of logic.
+        \end{itemize}
+      
+      \item Computer Science
+        \begin{itemize}
+            \item Inspired Turing, and by consequence the field of computability theory.
+            \item Created discussions on the limitations of computers and artificial intelligence.
+        \end{itemize}
+      
+      \item Philosophy
+        \begin{itemize}
+            \item Directly challenges the idea of determinism and a fully knowable universe.
+            \item Furthers debate on the nature of knowledge and the transcendence of human intuition.
+        \end{itemize}
+        
+    \end{itemize}
+    
+\end{block}
 
   \begin{block}{References}
 
@@ -220,4 +248,4 @@ Consider the truth value of $G$. If $G$ were false, then by its own definition, 
 \end{columns}
 \end{frame}
 
-\end{document} 
+\end{document}
