@@ -89,13 +89,15 @@
 
   \begin{alertblock}{Theorem}
 
-    In every reasonable axiomatic proposition of number theory, there will always be propositions that cannot be proven nor disproven.
+    To every $\omega$-consistent recursive class $\small{K}$ of formulae there correspond recursive class-signs $r$, such that neither $vGen(r)$ nor $\neg vGen(r)$ belongs to $Flg(k)$.
 
     \begin{figure}
       \centering
             \includegraphics[width=0.5\textwidth]{figures/Draw_1.png}
     \end{figure}
 
+    In other words, every reasonable recursive axiomatic proposition of number theory will always have propositions that cannot be proven nor disproven.
+    
   \end{alertblock}
   
 \begin{block}{Background}
@@ -103,6 +105,7 @@
     \begin{itemize}
       \item Before Gödel, metamathematicians expected math to eventually be \textbf{complete}, i.e., to be able to prove everything given the right amount of axioms.
       \item In the early 20th century, set theory paradoxes like those proposed by Bertrand Russell raised questions about the \textbf{consistency} of math.
+      \item Gödel was trying to solve Hilbert's Second problem, in which he wanted to know if math had any inherent contradictions and whether truth was self-evident.
         
     \end{itemize}
 
@@ -149,17 +152,17 @@
 
     This way, any given mathematical expression can be encoded algebraically. Besides, the statements can be decoded through prime factorization.
 
-    Note: $Encode(A)$ is sometimes written as $\ulcorner A \urcorner$.
+    Note: $Encode(A)$ is often written as $\ulcorner \!A \urcorner$.
 
   \end{block}
 
  \begin{block}{Provability}
 
-Since statement A can be proved through axiom B, and $Encode(A)$ and $Encode(B)$ are unique numbers, there must be a mathematical relation between the two.
+Since statement A can be proved through axiom B, and $\ulcorner \!A \urcorner)$ and $\ulcorner \!B \urcorner$ are unique numbers, there must be a mathematical relation between the two.
 
  \begin{itemize}
     
-    \item We can express this relation as a function $Provability(A)$ that determines whether a statement $A$ is provable within the formal system.
+    \item We can express this relation as a function $Provability(\ulcorner \!A \urcorner)$ that determines whether a statement $A$ is provable within the formal system.
     
     \item This function is essentially a binary predicate that determines if $A$ can be proved with the current axioms.
     
@@ -215,13 +218,20 @@ However, doing so would only create a new system where the current $G$ could be 
  \begin{itemize}
       \item Mathematics
         \begin{itemize}
+        
+            \item Forced meta-mathematics past Russell's \textit{Principia Mathematica}.
+            \item Established a mutual exclusivity between consistency and completeness of recursive formal systems.
             \item No single formal system can capture all mathematical truths, showing the inherent incompleteness of axiomatic systems of logic.
+            
         \end{itemize}
       
       \item Computer Science
         \begin{itemize}
+
+            \item Popularized the arithmetization of syntax in the years leading up to the first computers.
             \item Inspired Turing, and by consequence the field of computability theory.
-            \item Created discussions on the limitations of computers and artificial intelligence.
+            \item Furthered the complexity of the discussions on the limitations of computers and artificial intelligence.
+            
         \end{itemize}
       
       \item Philosophy
@@ -235,7 +245,6 @@ However, doing so would only create a new system where the current $G$ could be 
 \end{block}
 
   \begin{block}{References}
-
     \nocite{*}
     \footnotesize{\bibliographystyle{plain}\bibliography{poster}}
 
