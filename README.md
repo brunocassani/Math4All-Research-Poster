@@ -1,6 +1,8 @@
 # See specs of the research poster using either of the following:
 
 https://github.com/brunocassani/BC-Poster-Template
+
+
 https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj
 
 # License
