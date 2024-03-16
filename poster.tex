@@ -18,7 +18,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{luainputenc}
 \usepackage{lmodern}
-\usepackage[size=custom, width=122,height= 85, scale=1.2]{beamerposter} %OG size=custom, width=122,height=91, scale=1.2
+\usepackage[size=custom, width=122,height= 83, scale=1.2]{beamerposter} %OG size=custom, width=122,height=91, scale=1.2
 \usetheme{gemini}
 \usecolortheme{msu}
 \usepackage{graphicx}
@@ -102,8 +102,8 @@
 \begin{block}{Background}
 
     \begin{itemize}
-      \item Before Gödel, metamathematicians expected math to eventually be \textbf{complete}.
-      \item In the early 20th century, set theory paradoxes like those by Bertrand Russell raised questions about the \textbf{consistency} of math.
+      \item Before Gödel, metamathematicians expected math to eventually be \textbf{\textit{complete}}.
+      \item In the early 20th century, set theory paradoxes like those by Bertrand Russell raised questions about the \textbf{\textit{consistency}} of math.
       \item Gödel was trying to solve Hilbert's Second problem; he wanted to know if math had any inherent contradictions and if truth was self-evident.
         
     \end{itemize}
@@ -120,7 +120,7 @@
 
 \begin{block}{Gödel Numbering}
 
-      To investigate the proposition, Gödel needed math to be self-referential. He created his own $Encode(G)$ function to turn mathematical statements into unique natural numbers. To do so, he would first need to convert each mathematical symbol into a number. Thus, he created a numbering system where each symbol has its own unique natural number to be used for encoding.
+    Gödel created his own $Encode(G)$ function to turn mathematical statements into unique natural numbers. To do so, he would first need to \textbf{convert each mathematical symbol into a number}. Thus, he created a numbering system where each symbol has its own unique natural number to be used for encoding.
 
     \begin{table}[h]
     \centering
@@ -154,7 +154,7 @@
 
     $$Encode(x_1, x_2, \dots, x_n) = 2^{x_1} \times 3^{x_2} \times \ldots \times p_n^{x_n}$$
 
-    This way, any given mathematical expression can be encoded algebraically. Besides, the statements can be decoded through prime factorization.
+    This way, any given mathematical expression can be \textbf{encoded algebraically}. Besides, the statements can be decoded through prime factorization.
 
     Note: $Encode(A)$ is often written as $\ulcorner \!A \urcorner$.
 
@@ -167,7 +167,7 @@ Since statement $A$ can be proved through an axiom $B$, and $\ulcorner \!A \urco
 
  \begin{itemize}
     
-    \item We can express this relation as a function $Provability(\ulcorner \!A \urcorner)$ that determines whether a statement $A$ is provable within the formal system.
+    \item We can express this relation as a function $Provability(\ulcorner \!A \urcorner)$ that \textbf{determines whether a statement $A$ is provable} within the formal system.
     
     \item This function is essentially a binary predicate that determines if $A$ can be proved through any axiom $B$.
     
@@ -203,7 +203,7 @@ $$G \equiv \neg Provability(\ulcorner F_j(j)\urcorner)$$
  \end{alertblock}
 
  \begin{block}{Truth Value}
-If $G$ were false, then by its own definition, each $F_j(j)$ would be provable and thus true. But the definition of $G$ implies the opposite; since math is consistent, $G$ must be true. Since $G$ cannot be consistently proven or disproven within the system, it follows that $G$ is true but unprovable within $F$.
+If $G$ were false, then by its own definition, each $F_j(j)$ would be provable and thus true. However the definition of $G$ states the opposite, and since math is consistent, $G$ must be true. This means $G$ is true but unprovable within $F$.
  
  \end{block}
 
@@ -216,8 +216,7 @@ If $G$ were false, then by its own definition, each $F_j(j)$ would be provable a
 \begin{column}{\colwidth}
 
 \begin{block}{Axiomatization}
-Although the proof works, one might argue that the Gödel statement could be made into an axiom to trivialize the problem.\\
-However, doing so would only create a new system where the current $G$ could be proved; it would change the nature of the new system, leading to further contradictions.
+One might argue that the Gödel statement could be made into an axiom to trivialize the problem. However, doing so would only create a new system where the current $G$ could be proved; thus, it would change the nature of the system, leading to further contradictions.
 
 \end{block}
 
@@ -240,7 +239,7 @@ However, doing so would only create a new system where the current $G$ could be 
 
             \item Popularized the arithmetization of syntax in the years leading up to the first computers.
             \item Inspired Turing, and by consequence the field of computability theory.
-            \item Furthered the discussions on the limitations of computers and artificial intelligence.
+            \item Established limitations on computers and artificial intelligence.
             
         \end{itemize}
       
