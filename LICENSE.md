@@ -24,6 +24,7 @@ SOFTWARE.
 ----------------------
 
 Creative Commons Legal Code
+=====================
 
 **CC BY Bruno Cassani (cassanib@bc.edu) 4.0 License**
 
