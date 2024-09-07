@@ -7,7 +7,8 @@ https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbf
 
 # License
 
-Copyright (c) 2018-2022 Anish Athalye. Released under the MIT License. See
+Template used from Anish Athalye (2018-2022).\
+Currently under Creative Commons 4.0 license by Bruno Cassani (2024 - present).
 [LICENSE.md][license] for details.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
