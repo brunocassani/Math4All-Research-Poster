@@ -1,6 +1,13 @@
-# See specs of the research poster using either of the following:
+# Preview
 
-https://github.com/brunocassani/BC-Poster-Template
+Use the [pdf](https://github.com/brunocassani/Math4All-Research-Poster/blob/main/Version_3.pdf) for the full quality image
+
+[![S1][scst1]](https://github.com/brunocassani/Math4All-Research-Poster/blob/main/Version_3.png)
+
+
+# Check out the template!
+
+https://github.com/brunocassani/BC-Poster-Template\
 
 
 https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj
@@ -19,3 +26,5 @@ Currently under Creative Commons 4.0 license by Bruno Cassani (2024 - present).
 [Lato]: https://www.fontsquirrel.com/fonts/lato
 [license]: LICENSE.md
 [FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
+
+[scst1]: https://github.com/brunocassani/Math4All-Research-Poster/blob/main/Version_3.png
