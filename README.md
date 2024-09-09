@@ -7,7 +7,7 @@ Use the [pdf](https://github.com/brunocassani/Math4All-Research-Poster/blob/main
 
 # Check out the template!
 
-https://github.com/brunocassani/BC-Poster-Template \
+https://github.com/brunocassani/BC-Poster-Template
 
 
 https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj
