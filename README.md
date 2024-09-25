@@ -7,16 +7,14 @@ Use the [pdf](https://github.com/brunocassani/Math4All-Research-Poster/blob/main
 
 # Check out the template!
 
-https://github.com/brunocassani/BC-Poster-Template
-
-
-https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj
+[GitHub link](https://github.com/brunocassani/BC-Poster-Template)\
+[Overleaf link](https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj)
 
 # License
 
 Template used from Anish Athalye (2018-2022).\
 Currently under Creative Commons 4.0 license by Bruno Cassani (2024 - present).
-[LICENSE.md][license] for details.
+See [LICENSE.md][license] for details.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
 [Auriga]: https://github.com/anishathalye/auriga
